@@ -1,0 +1,11 @@
+server: 
+  port: 8001
+datasource:
+  driverClassName: com.mysql.jdbc.Driver
+  url: jdbc:mysql://localhost:3306/microservicesProducts
+  username: root
+  password: 06321799
+jpa: 
+  hibernate.ddl-auto: update
+  generate-ddl: true
+  show-sql: true
